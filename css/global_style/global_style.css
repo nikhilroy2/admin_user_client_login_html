@@ -92,4 +92,20 @@ body {
   height: 7rem;
   color: var(--text-white) !important;
 }
+
+h1 {
+  font-size: 5rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+.text_primary {
+  color: #0b1f5b;
+}
+
+.text_48 {
+  color: #333E48;
+}
 /*# sourceMappingURL=global_style.css.map */

@@ -1,0 +1,18 @@
+// ....................Section title Components .................
+.section_title {
+  font-family: trebuc;
+  &.title_border_bottom{
+      border-bottom: 1px solid #0B1F5B;
+  }
+  h1 {
+    font-family: trebuc;
+    &.title_mb{
+        margin-bottom: 2.1rem;
+    }
+  }
+  &.title_padding{
+      padding-top: 6.7rem;
+      padding-bottom: 6.7rem;
+  }
+}
+// ....................Section title Components .................End

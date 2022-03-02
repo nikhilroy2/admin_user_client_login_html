@@ -1,0 +1,21 @@
+.section_title {
+  font-family: trebuc;
+}
+
+.section_title.title_border_bottom {
+  border-bottom: 1px solid #0B1F5B;
+}
+
+.section_title h1 {
+  font-family: trebuc;
+}
+
+.section_title h1.title_mb {
+  margin-bottom: 2.1rem;
+}
+
+.section_title.title_padding {
+  padding-top: 6.7rem;
+  padding-bottom: 6.7rem;
+}
+/*# sourceMappingURL=components.css.map */

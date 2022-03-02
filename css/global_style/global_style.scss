@@ -50,7 +50,7 @@ body {
 // ...........Section Container..........End
 
 // ..............................Header Style.........................
-.logo_img{
+.logo_img {
   max-height: 2.7rem;
 }
 .navbar {
@@ -88,3 +88,21 @@ body {
 }
 
 // ..............................Header Style.........................End
+
+// ..............................Heading.............................
+h1 {
+  font-size: 5rem;
+}
+h5 {
+  font-size: 1.8rem;
+}
+// ..............................Heading.............................End
+
+// .............................Text, Background classes ............
+.text_primary {
+  color: #0b1f5b;
+}
+.text_48{
+  color: #333E48;
+}
+// .............................Text, Background classes ............End
