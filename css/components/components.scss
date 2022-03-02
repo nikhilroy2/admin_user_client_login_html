@@ -1,18 +1,42 @@
 // ....................Section title Components .................
 .section_title {
   font-family: trebuc;
-  &.title_border_bottom{
-      border-bottom: 1px solid #0B1F5B;
+  &.section_title_mb {
+    margin-bottom: 6rem;
+  }
+  &.title_border_bottom {
+    border-bottom: 1px solid #0b1f5b;
   }
   h1 {
     font-family: trebuc;
-    &.title_mb{
-        margin-bottom: 2.1rem;
+    &.title_mb {
+      margin-bottom: 2.1rem;
     }
   }
-  &.title_padding{
-      padding-top: 6.7rem;
-      padding-bottom: 6.7rem;
+  &.title_padding {
+    padding-top: 6.7rem;
+    padding-bottom: 6.7rem;
   }
 }
 // ....................Section title Components .................End
+
+// ....................Button Components .......................
+.btn_be_action {
+  background: var(--text-be);
+  color: var(--text-white);
+  border: none;
+  outline: none;
+  text-align: center;
+  font-family: yugothib;
+  border-radius: 0.3rem;
+  box-shadow: 0px 2px 0px var(--text-93);
+  &.action_mt{
+      margin-top: 1.1rem;
+  }
+  &.sm_size {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    min-width: 18rem;
+  }
+}
+// ....................Button Components .......................End

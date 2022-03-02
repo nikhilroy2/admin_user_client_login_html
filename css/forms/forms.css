@@ -1,0 +1,46 @@
+.form_title {
+  font-size: 2rem;
+}
+
+.form_container.mb_lg {
+  margin-bottom: 9.6rem;
+}
+
+.form_container.form_mx_container {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_container .form-group {
+  margin-bottom: 2.9rem;
+}
+
+.form_container .form-group label {
+  font-size: 1.6rem;
+  color: var(--text-f1);
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  font-family: yugothib;
+}
+
+.form_container .form-group input {
+  border: 1px solid var(--text-cc) !important;
+  padding: 1.2rem 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: var(--text-f1);
+  border-radius: 0px;
+  font-family: yugothib;
+}
+
+.form_container .form_control_helper {
+  margin-top: 3.7rem;
+}
+
+.form_container .form_control_helper a {
+  margin-bottom: 1.1rem;
+}
+/*# sourceMappingURL=forms.css.map */
