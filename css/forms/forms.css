@@ -2,6 +2,23 @@
   font-size: 2rem;
 }
 
+.form_title.mb_title {
+  margin-bottom: 2.6rem;
+}
+
+.form_subtitle {
+  font-size: 1.4rem;
+}
+
+.form_subtitle.mb_title {
+  margin-bottom: 3.5rem;
+}
+
+.form_control_helper p {
+  font-size: 1.4rem;
+  color: var(--text-01);
+}
+
 .form_container.mb_lg {
   margin-bottom: 9.6rem;
 }

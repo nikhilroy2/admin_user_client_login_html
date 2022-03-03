@@ -31,6 +31,8 @@
   --text-f7: #4f9df7;
   --text-5b: #0b1f5b;
   --text-32: #202732;
+  --text-01: #0D0101;
+  --text-32: #202732;
 }
 
 body {
@@ -123,6 +125,10 @@ h5 {
 
 .text_f7 {
   color: var(--text-f7);
+}
+
+.text_01 {
+  color: var(--text-01);
 }
 
 footer {
