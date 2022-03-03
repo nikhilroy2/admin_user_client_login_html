@@ -111,6 +111,7 @@
 }
 
 .form_container tr td:first-child {
+  padding-left: 0px;
   padding-right: 4.1rem;
 }
 /*# sourceMappingURL=forms.css.map */

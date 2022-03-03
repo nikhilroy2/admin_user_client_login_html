@@ -86,17 +86,19 @@
     margin-right: 0.5rem;
   }
 }
-.btn_dark{
+.btn_dark {
   text-decoration: none;
   background: var(--text-32);
-  color: var(--text-white)!important;
+  color: var(--text-white) !important;
   width: 18rem;
   height: 4rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 3px;
-
+  &.btn_mt {
+    margin-top: 6.4rem;
+  }
 }
 .btn_action_more {
   font-size: 2.2rem;
@@ -108,10 +110,10 @@
   align-items: center;
   background: transparent;
   height: 6.4rem;
-  &.btn_mt{
+  &.btn_mt {
     margin-top: 3.9rem;
   }
-  &.btn_mb{
+  &.btn_mb {
     margin-bottom: 7.3rem;
   }
 }
@@ -162,3 +164,37 @@
   }
 }
 // ...................Content list Components. .................End
+
+// ....................Table Components ........................
+.section_table_wrapper {
+  background: rgba(112, 112, 112, 0.5);
+  position: relative;
+  user-select: none;
+  margin-bottom: 10.9rem;
+  tr {
+    font-size: 1.8rem;
+    font-family: yugothib;
+    td {
+      border: none;
+      padding-bottom: 3.4rem;
+      &:nth-child(odd) {
+        font-weight: bold;
+      }
+    }
+    &:last-child{
+      td{
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .table_overlap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.6rem;
+    color: var(--text-white);
+    text-align: center;
+  }
+}
+// ....................Table Components ........................End

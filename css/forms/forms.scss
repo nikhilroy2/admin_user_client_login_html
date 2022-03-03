@@ -80,7 +80,9 @@
       color: var(--text-89);
     }
   }
+ 
   tr td:first-child {
+    padding-left: 0px;
     padding-right: 4.1rem;
   }
 }
