@@ -2,26 +2,26 @@
 
 .form_title {
   font-size: 2rem;
-  &.mb_title{
+  &.mb_title {
     margin-bottom: 2.6rem;
   }
 }
-.form_subtitle{
+.form_subtitle {
   font-size: 1.4rem;
-  &.mb_title{
+  &.mb_title {
     margin-bottom: 3.5rem;
   }
 }
-.form_control_helper{
-  p{
+.form_control_helper {
+  p {
     font-size: 1.4rem;
     color: var(--text-01);
   }
 }
 .form_container {
-    &.mb_lg{
-        margin-bottom: 9.6rem;
-    }
+  &.mb_lg {
+    margin-bottom: 9.6rem;
+  }
   &.form_mx_container {
     max-width: 50rem;
     margin-left: auto;
@@ -36,7 +36,8 @@
       font-weight: bold;
       font-family: yugothib;
     }
-    input {
+    input,
+    select {
       border: 1px solid var(--text-cc) !important;
       padding: 1.2rem 2rem;
       font-size: 1.6rem;
@@ -47,11 +48,40 @@
       font-family: yugothib;
     }
   }
-  .form_control_helper{
-      margin-top: 3.7rem;
-      a{
-          margin-bottom: 1.1rem;
-      }
+  .form_control_helper {
+    margin-top: 3.7rem;
+    a {
+      margin-bottom: 1.1rem;
+    }
+  }
+  .form_table {
+    max-width: 48rem;
+    font-size: 1.8rem;
+    font-family: yugothib;
+    * {
+      color: var(--text-01);
+      border: none;
+      vertical-align: middle;
+    }
+    .form-group {
+      margin-bottom: 0px;
+    }
+    .form-control {
+      padding: 1.1rem;
+    }
+    .w_200 {
+      width: 20rem;
+    }
+    .w_140 {
+      width: 14rem;
+    }
+    ::placeholder,
+    select {
+      color: var(--text-89);
+    }
+  }
+  tr td:first-child {
+    padding-right: 4.1rem;
   }
 }
 
