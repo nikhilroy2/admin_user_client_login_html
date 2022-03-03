@@ -34,6 +34,7 @@
   --text-32: #202732;
   --text-01: #0D0101;
   --text-32: #202732;
+  --text-red: #FF0000;
 }
 // ............body..........
 body {
@@ -123,6 +124,9 @@ h5 {
 }
 .text_01{
   color: var(--text-01);
+}
+.text_red{
+  color: var(--text-red);
 }
 // .............................Text, Background classes ............End
 

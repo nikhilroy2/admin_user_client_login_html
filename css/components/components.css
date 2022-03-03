@@ -23,6 +23,15 @@
   padding-bottom: 6.7rem;
 }
 
+.section_title.section_title_sub {
+  padding-bottom: 2rem;
+}
+
+.section_title.section_title_sub h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .section_title_content {
   font-family: yugothib;
 }
