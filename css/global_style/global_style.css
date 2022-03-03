@@ -30,13 +30,13 @@
   --text-93: #005393;
   --text-f7: #4f9df7;
   --text-5b: #0b1f5b;
-  --text-32: #202732;
   --text-01: #0d0101;
   --text-32: #202732;
   --text-red: #ff0000;
   --text-89: #898989;
   --text-d0: #d0d0d0;
-  --text-ec: #ECF7FF;
+  --text-ec: #ecf7ff;
+  --text-70: #707070;
 }
 
 body {
@@ -124,6 +124,10 @@ h5 {
   font-size: 1.8rem;
 }
 
+h6 {
+  font-size: 1.4rem;
+}
+
 .text_primary {
   color: var(--text-5b);
 }
@@ -137,7 +141,7 @@ h5 {
 }
 
 .text_f7 {
-  color: var(--text-f7);
+  color: var(--text-f7) !important;
 }
 
 .text_01 {
@@ -148,12 +152,20 @@ h5 {
   color: var(--text-red) !important;
 }
 
+.bg_32 {
+  background: var(--text-32);
+}
+
 .bg_d0 {
   background: var(--text-d0);
 }
 
 .font_14 {
   font-size: 1.4rem;
+}
+
+.font_13 {
+  font-size: 1.3rem;
 }
 
 footer {
