@@ -46,6 +46,9 @@
       color: var(--text-f1);
       border-radius: 0px;
       font-family: yugothib;
+      @media (max-width: 600px) {
+        padding: .3rem 1rem;
+      }
     }
   }
   .form_control_helper {
@@ -80,7 +83,7 @@
       color: var(--text-89);
     }
   }
- 
+
   tr td:first-child {
     padding-left: 0px;
     padding-right: 4.1rem;

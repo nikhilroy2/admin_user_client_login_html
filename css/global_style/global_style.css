@@ -135,6 +135,7 @@ body {
 @media (max-width: 600px) {
   .navbar .navbar_list .btn_nav_item {
     width: 15rem;
+    height: 5rem;
   }
 }
 

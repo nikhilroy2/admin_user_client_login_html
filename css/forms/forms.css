@@ -54,6 +54,13 @@
   font-family: yugothib;
 }
 
+@media (max-width: 600px) {
+  .form_container .form-group input,
+  .form_container .form-group select {
+    padding: .3rem 1rem;
+  }
+}
+
 .form_container .form_control_helper {
   margin-top: 3.7rem;
 }
