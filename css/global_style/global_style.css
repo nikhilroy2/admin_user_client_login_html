@@ -56,12 +56,30 @@ body {
   padding-left: 140px;
 }
 
+@media (max-width: 1199px) {
+  .section_container.container_left_helper {
+    padding-left: 1.5rem;
+  }
+}
+
 .section_container.container_right_helper {
   padding-right: 140px;
 }
 
+@media (max-width: 1199px) {
+  .section_container.container_right_helper {
+    padding-right: 1.5rem;
+  }
+}
+
 .logo_img {
   max-height: 2.7rem;
+}
+
+@media (max-width: 600px) {
+  .logo_img {
+    max-height: 2rem;
+  }
 }
 
 .navbar {
@@ -75,6 +93,12 @@ body {
   margin-right: 8.3rem;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
+}
+
+@media (max-width: 1199px) {
+  .navbar .navbar_list .nav-item {
+    margin-right: 0px;
+  }
 }
 
 .navbar .navbar_list .nav-item:last-child {
@@ -108,8 +132,20 @@ body {
   color: var(--text-white) !important;
 }
 
+@media (max-width: 600px) {
+  .navbar .navbar_list .btn_nav_item {
+    width: 15rem;
+  }
+}
+
 h1 {
   font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -175,6 +211,13 @@ footer {
   color: var(--text-white);
 }
 
+@media (max-width: 600px) {
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
 footer .light_logo {
   height: 3.84rem;
   display: inline-block;
@@ -217,5 +260,11 @@ footer .footer_copyright {
   font-size: 1rem;
   font-family: yugothib;
   margin-top: 5.6rem;
+}
+
+@media (max-width: 600px) {
+  footer .footer_copyright {
+    margin-top: 2rem;
+  }
 }
 /*# sourceMappingURL=global_style.css.map */

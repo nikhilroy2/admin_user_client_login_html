@@ -23,6 +23,20 @@
   padding-bottom: 6.7rem;
 }
 
+@media (max-width: 1199px) {
+  .section_title.title_padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 1199px) and (max-width: 600px) {
+  .section_title.title_padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 .section_title.section_title_sub {
   padding-bottom: 2rem;
 }
@@ -41,12 +55,36 @@
   margin-bottom: 3.9rem;
 }
 
+@media (max-width: 1199px) {
+  .section_title_content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section_title_content h3 {
+    font-size: 1.5rem;
+  }
+}
+
 .section_title_content a.btn_light {
   margin-bottom: 4rem;
 }
 
 .section_title_content h2 {
   font-size: 4rem;
+}
+
+@media (max-width: 1199px) {
+  .section_title_content h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1199px) and (max-width: 600px) {
+  .section_title_content h2 {
+    font-size: 2rem;
+  }
 }
 
 .section_title_content h2 svg {
@@ -94,6 +132,14 @@
   padding: 1.9rem;
   text-transform: uppercase;
   color: var(--text-5b) !important;
+}
+
+@media (max-width: 1199px) {
+  .btn_light {
+    min-width: 20rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 }
 
 .btn_light img {
