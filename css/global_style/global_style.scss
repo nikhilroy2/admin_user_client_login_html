@@ -31,6 +31,7 @@
   --text-93: #005393;
   --text-f7: #4f9df7;
   --text-5b: #0b1f5b;
+  --text-32: #202732;
 }
 // ............body..........
 body {
@@ -115,7 +116,47 @@ h5 {
 .text_be {
   color: var(--text-be);
 }
-.text_f7{
-  color: var(--text-f7)
+.text_f7 {
+  color: var(--text-f7);
 }
 // .............................Text, Background classes ............End
+
+// ............................Footer Style.......................
+footer {
+  background: var(--text-32);
+  padding-top: 6.4rem;
+  padding-bottom: 3.9rem;
+  color: var(--text-white);
+  .light_logo {
+    height: 3.84rem;
+    display: inline-block;
+    margin-bottom: 2.4rem;
+  }
+  p.paragraph {
+    font-size: 1.4rem;
+  }
+  p {
+    font-family: yugothib;
+  }
+  .footer_nav_list {
+    display: flex;
+    flex-flow: row wrap;
+    li {
+      margin-right: 4rem;
+      margin-bottom: 2.37rem;
+      .nav_link{
+        color: var(--text-white);
+        font-family: trebuc;
+      }
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+  .footer_copyright{
+    font-size: 1rem;
+    font-family: yugothib;
+    margin-top: 5.6rem;
+  }
+}
+// ............................Footer Style.......................End

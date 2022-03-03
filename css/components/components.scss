@@ -18,6 +18,26 @@
     padding-bottom: 6.7rem;
   }
 }
+
+.section_title_content{
+  font-family: yugothib;
+  h3{
+    font-size: 3rem;
+    margin-bottom: 3.9rem;
+  }
+  a.btn_light{
+    margin-bottom: 4rem;
+  }
+  h2{
+    font-size: 4rem;
+    svg{
+      vertical-align: middle;
+    }
+  }
+  p{
+    font-size: 1.6rem;
+  }
+}
 // ....................Section title Components .................End
 
 // ....................Button Components .......................
@@ -37,6 +57,19 @@
     font-size: 1.3rem;
     padding: 1.2rem;
     min-width: 18rem;
+  }
+}
+.btn_light{
+  text-decoration: none;
+  background: var(--text-white);
+  display: inline-block;
+  min-width: 30rem;
+  font-size: 2.2rem;
+  padding: 1.9rem;
+  text-transform: uppercase;
+  color: var(--text-5b)!important;
+  img{
+    margin-right: .5rem;
   }
 }
 // ....................Button Components .......................End

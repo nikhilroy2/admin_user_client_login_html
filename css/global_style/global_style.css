@@ -30,6 +30,7 @@
   --text-93: #005393;
   --text-f7: #4f9df7;
   --text-5b: #0b1f5b;
+  --text-32: #202732;
 }
 
 body {
@@ -122,5 +123,56 @@ h5 {
 
 .text_f7 {
   color: var(--text-f7);
+}
+
+footer {
+  background: var(--text-32);
+  padding-top: 6.4rem;
+  padding-bottom: 3.9rem;
+  color: var(--text-white);
+}
+
+footer .light_logo {
+  height: 3.84rem;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+footer p.paragraph {
+  font-size: 1.4rem;
+}
+
+footer p {
+  font-family: yugothib;
+}
+
+footer .footer_nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+footer .footer_nav_list li {
+  margin-right: 4rem;
+  margin-bottom: 2.37rem;
+}
+
+footer .footer_nav_list li .nav_link {
+  color: var(--text-white);
+  font-family: trebuc;
+}
+
+footer .footer_nav_list li:last-child {
+  margin-right: 0px;
+}
+
+footer .footer_copyright {
+  font-size: 1rem;
+  font-family: yugothib;
+  margin-top: 5.6rem;
 }
 /*# sourceMappingURL=global_style.css.map */
