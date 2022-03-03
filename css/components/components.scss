@@ -87,3 +87,23 @@
   }
 }
 // ....................Button Components .......................End
+
+// ...................User line, box Components. .................
+.user_progress_box {
+  padding-top: 3.2rem;
+  padding-bottom: 6.3rem;
+  width: 100%;
+  .progress_box {
+    height: 8rem;
+    background: var(--text-ec);
+    .progress_limit{
+      background: linear-gradient(#3384c1 0%, #0b1f5b 100%);
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: var(--limit-count);
+    }
+  }
+}
+// ...................User line, box Components. .................End

@@ -31,16 +31,19 @@
   --text-f7: #4f9df7;
   --text-5b: #0b1f5b;
   --text-32: #202732;
-  --text-01: #0D0101;
+  --text-01: #0d0101;
   --text-32: #202732;
-  --text-red: #FF0000;
+  --text-red: #ff0000;
   --text-89: #898989;
+  --text-d0: #d0d0d0;
+  --text-ec: #ECF7FF;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  color: var(--text-01);
 }
 
 .section_container {
@@ -109,6 +112,14 @@ h1 {
   font-size: 5rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
 h5 {
   font-size: 1.8rem;
 }
@@ -135,6 +146,14 @@ h5 {
 
 .text_red {
   color: var(--text-red) !important;
+}
+
+.bg_d0 {
+  background: var(--text-d0);
+}
+
+.font_14 {
+  font-size: 1.4rem;
 }
 
 footer {
