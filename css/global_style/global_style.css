@@ -37,6 +37,7 @@
   --text-d0: #d0d0d0;
   --text-ec: #ecf7ff;
   --text-70: #707070;
+  --text-f3: #f3f3f3;
 }
 
 body {
@@ -98,6 +99,8 @@ body {
 @media (max-width: 1199px) {
   .navbar .navbar_list .nav-item {
     margin-right: 0px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
 }
 
@@ -191,6 +194,10 @@ h6 {
 
 .bg_32 {
   background: var(--text-32);
+}
+
+.bg_f3 {
+  background: var(--text-f3);
 }
 
 .bg_d0 {

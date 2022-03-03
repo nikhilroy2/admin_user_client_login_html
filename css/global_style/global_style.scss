@@ -38,6 +38,7 @@
   --text-d0: #d0d0d0;
   --text-ec: #ecf7ff;
   --text-70: #707070;
+  --text-f3: #f3f3f3;
 }
 // ............body..........
 body {
@@ -88,6 +89,8 @@ body {
       padding-bottom: 1.8rem;
       @media (max-width: 1199px) {
         margin-right: 0px;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
       }
       &:last-child {
         margin-right: 0px;
@@ -160,11 +163,14 @@ h6 {
 .text_red {
   color: var(--text-red) !important;
 }
+
+// bg
 .bg_32 {
   background: var(--text-32);
 }
-// bg
-
+.bg_f3 {
+  background: var(--text-f3);
+}
 .bg_d0 {
   background: var(--text-d0);
 }
