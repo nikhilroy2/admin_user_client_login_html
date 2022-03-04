@@ -15,7 +15,6 @@
     <li>
         <a href="https://user-login-xd-to-html.netlify.app/basic_registration.html">https://user-login-xd-to-html.netlify.app/basic_registration.html</a>
     </li>
-
     <li>
         <a href="https://user-login-xd-to-html.netlify.app/user_my_page.html">https://user-login-xd-to-html.netlify.app/user_my_page.html</a>
     </li>
