@@ -12,6 +12,16 @@
   }
 }
 
+.section_title.section_title_mb.mb_sm {
+  margin-bottom: 2.7rem;
+}
+
+@media (max-width: 600px) {
+  .section_title.section_title_mb.mb_sm {
+    margin-bottom: 1.8rem;
+  }
+}
+
 .section_title.mb_sm {
   margin-bottom: 2.2rem;
 }
@@ -332,6 +342,16 @@
   }
 }
 
+.btn_return.mt_xl {
+  margin-top: 7.1rem;
+}
+
+@media (max-width: 600px) {
+  .btn_return.mt_xl {
+    margin-top: 5.1rem;
+  }
+}
+
 .btn_return.mb_xl {
   margin-bottom: 10rem;
 }
@@ -443,6 +463,92 @@
 .content_list_wrapper .content_list .list_foot a {
   font-size: 1rem;
   font-weight: bold;
+}
+
+.affiliate_content_wrapper {
+  padding-top: 5.4rem;
+  padding-bottom: 6.4rem;
+  font-family: yugothib;
+}
+
+.affiliate_content_wrapper .affiliate_list li {
+  margin-bottom: 4rem;
+}
+
+.affiliate_content_wrapper .affiliate_list li:last-child {
+  margin-bottom: 0px;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_title {
+  background: var(--text-5b);
+  color: var(--text-white);
+  padding: 1.4rem;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body {
+  padding-top: 4rem;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .paragraph {
+  font-size: 1.6rem;
+  line-height: 3.6rem;
+  margin-bottom: 2.7rem;
+}
+
+@media (max-width: 600px) {
+  .affiliate_content_wrapper .affiliate_list .list_body .paragraph {
+    line-height: 2.5rem;
+  }
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table-responsive {
+  margin-right: 4rem;
+}
+
+@media (max-width: 991px) {
+  .affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table-responsive {
+    margin-right: 0px;
+  }
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table-responsive table {
+  border-top: 1px solid var(--text-70);
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table-responsive td {
+  font-size: 1.8rem;
+  border-bottom: 1px solid var(--text-70);
+  white-space: nowrap;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table-responsive td:nth-child(odd) {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table_media {
+  min-width: 36rem;
+  height: 22rem;
+  background: var(--text-70);
+}
+
+@media (max-width: 991px) {
+  .affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table_media {
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .affiliate_content_wrapper .affiliate_list .list_body .table_flex_box .table_media {
+    min-width: 100%;
+  }
 }
 
 .section_table_wrapper {
@@ -1014,6 +1120,45 @@
 @media (max-width: 600px) {
   .kokoro_card_details .card_footer .extra_foot {
     margin-bottom: 2.1rem;
+  }
+}
+
+.medical_care_card .card_name {
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.medical_care_card .media_wrapper {
+  width: 60rem;
+  height: 32rem;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--text-70);
+}
+
+@media (max-width: 1199px) {
+  .medical_care_card .media_wrapper {
+    width: 45rem;
+    height: 22rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .medical_care_card .media_wrapper {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+.medical_care_card .paragraph {
+  padding-top: 2.4rem;
+  line-height: 3.6rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .medical_care_card .paragraph {
+    line-height: 2.6rem;
   }
 }
 
