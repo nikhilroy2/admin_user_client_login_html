@@ -162,6 +162,9 @@ body {
 
 .header_beneath_section {
   background: var(--text-ec);
+}
+
+.header_beneath_section .box {
   padding: 1rem;
 }
 
@@ -179,8 +182,30 @@ h2 {
   font-size: 3rem;
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1.8rem;
+  }
+}
+
 h4 {
   font-size: 2.4rem;
+}
+
+@media (max-width: 600px) {
+  h4 {
+    font-size: 1.8rem;
+  }
 }
 
 h5 {

@@ -6,6 +6,10 @@
   margin-bottom: 6rem;
 }
 
+.section_title.mb_sm {
+  margin-bottom: 2.2rem;
+}
+
 .section_title.title_border_bottom {
   border-bottom: 1px solid #0b1f5b;
 }
@@ -205,6 +209,12 @@
   margin-top: 6.4rem;
 }
 
+@media (max-width: 600px) {
+  .btn_dark {
+    width: 12rem;
+  }
+}
+
 .btn_light_gray {
   width: 20rem;
   height: 5rem;
@@ -228,7 +238,7 @@
   font-size: 2.2rem;
   color: var(--text-be);
   border: 2px solid var(--text-be);
-  width: 30rem;
+  min-width: 30rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -239,15 +249,35 @@
       -ms-flex-align: center;
           align-items: center;
   background: transparent;
-  height: 6.4rem;
+  min-height: 6.4rem;
 }
 
 .btn_action_more.btn_mt {
   margin-top: 3.9rem;
 }
 
+@media (max-width: 600px) {
+  .btn_action_more.btn_mt {
+    margin-top: 1.9rem;
+  }
+}
+
 .btn_action_more.btn_mb {
   margin-bottom: 7.3rem;
+}
+
+@media (max-width: 600px) {
+  .btn_action_more.btn_mb {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn_action_more {
+    min-height: 4.4rem;
+    font-size: 1.6rem;
+    min-width: 15rem;
+  }
 }
 
 .user_progress_box {
@@ -259,6 +289,12 @@
 .user_progress_box .progress_box {
   height: 8rem;
   background: var(--text-ec);
+}
+
+@media (max-width: 600px) {
+  .user_progress_box .progress_box {
+    height: 5rem;
+  }
 }
 
 .user_progress_box .progress_box .progress_limit {
@@ -275,6 +311,22 @@
       -ms-flex-align: center;
           align-items: center;
   width: var(--limit-count);
+}
+
+.user_progress_box .progress_box .progress_limit .progress_count {
+  font-size: 4rem;
+}
+
+@media (max-width: 600px) {
+  .user_progress_box .progress_box .progress_limit .progress_count {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .user_progress_box .progress_box .progress_limit .progress_count_name {
+    font-size: 1.4rem;
+  }
 }
 
 .content_list_wrapper .heading_title {
