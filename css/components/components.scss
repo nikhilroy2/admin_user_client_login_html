@@ -631,9 +631,9 @@
   }
   li {
     margin-bottom: 4rem;
-    &:last-child{
+    &:last-child {
       margin-bottom: 9.1rem;
-      @media (max-width: 600px){
+      @media (max-width: 600px) {
         margin-bottom: 5rem;
       }
     }
@@ -663,6 +663,42 @@
     }
   }
 }
+
+.kokoro_card_wrapper {
+  font-family: yugothib;
+  margin-bottom: 6.4rem;
+  .card_title {
+    height: 16rem;
+    background: var(--text-70);
+  }
+  .card_body {
+    padding: 1.4rem;
+    padding-bottom: 0px;
+    border: 1px solid var(--text-70);
+    border-top: none;
+    .card_date {
+      font-size: 0.8rem;
+      margin-bottom: 0.9rem;
+    }
+    .paragraph {
+      font-size: 1rem;
+    }
+  }
+  .card_footer {
+    padding: 1.4rem;
+    padding-top: 0px;
+    .btn_read_more {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: var(--text-be);
+      background: transparent;
+      border: 1px solid var(--text-be);
+      display: block;
+      padding: 0.9rem;
+      text-align: center;
+    }
+  }
+}
 // .....................Card Components .........................End
 
 // .......................border line ..................
@@ -675,3 +711,42 @@
   }
 }
 // .......................border line ..................End
+
+// ..........................Pagination ..................
+.pagination_wrapper {
+  margin-bottom: 2.4rem;
+  .pagination_list {
+    justify-content: center;
+    li {
+      width: 4rem;
+      height: 4rem;
+      color: var(--text-48);
+      border: 1px solid var(--text-e2);
+      font-size: 1.4rem;
+      &:first-child {
+        margin-right: 1rem;
+      }
+      &:last-child {
+        margin-left: 1rem;
+      }
+      &.list_dots {
+        border: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        color: var(--text-48) !important;
+        font-weight: bold;
+        width: 100%;
+        font-size: 1.4rem;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+// ..........................Pagination ..................End
