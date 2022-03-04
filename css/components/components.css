@@ -944,6 +944,79 @@
   text-align: center;
 }
 
+.kokoro_card_details {
+  font-family: yugothib;
+}
+
+.kokoro_card_details .card_date {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.kokoro_card_details .paragraph {
+  font-size: 1.6rem;
+  margin-bottom: 9rem;
+}
+
+@media (max-width: 600px) {
+  .kokoro_card_details .paragraph {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.kokoro_card_details .card_media {
+  padding-bottom: 6.4rem;
+  margin-bottom: 6.4rem;
+  border-bottom: 1px solid var(--text-70);
+}
+
+.kokoro_card_details .card_media .media_wrapper {
+  width: 60rem;
+  height: 32rem;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--text-70);
+}
+
+@media (max-width: 1199px) {
+  .kokoro_card_details .card_media .media_wrapper {
+    width: 45rem;
+    height: 22rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kokoro_card_details .card_media .media_wrapper {
+    width: 100%;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kokoro_card_details .card_media {
+    padding-bottom: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.kokoro_card_details .card_footer .extra_foot {
+  margin-bottom: 7.1rem;
+}
+
+@media (max-width: 1199px) {
+  .kokoro_card_details .card_footer .extra_foot {
+    margin-bottom: 5.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kokoro_card_details .card_footer .extra_foot {
+    margin-bottom: 2.1rem;
+  }
+}
+
 .border_line {
   width: 100%;
   height: 1px;

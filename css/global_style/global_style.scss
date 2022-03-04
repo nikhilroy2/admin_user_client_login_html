@@ -49,7 +49,7 @@
   --text-f4: #f4f4f4;
   --text-a9: #a9a9a9;
   --text-100: #ffb100;
-  --text-e2: #E2E2E2;
+  --text-e2: #e2e2e2;
 }
 // ............body..........
 body {
@@ -172,7 +172,7 @@ h2 {
   @media (max-width: 600px) {
     font-size: 2rem;
   }
-  &.mb_2{
+  &.mb_2 {
     margin-bottom: 2rem;
   }
 }
@@ -198,6 +198,13 @@ h4 {
   font-size: 2.4rem;
   @media (max-width: 600px) {
     font-size: 1.8rem;
+  }
+  &.pb_with_border {
+    padding-bottom: 2.4rem;
+    border-bottom: 1px solid var(--text-70);
+  }
+  &.mb_4{
+    margin-bottom: 4rem;
   }
 }
 h5 {

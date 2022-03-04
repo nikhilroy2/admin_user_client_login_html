@@ -52,7 +52,7 @@
   --text-f4: #f4f4f4;
   --text-a9: #a9a9a9;
   --text-100: #ffb100;
-  --text-e2: #E2E2E2;
+  --text-e2: #e2e2e2;
 }
 
 body {
@@ -247,6 +247,15 @@ h4 {
   h4 {
     font-size: 1.8rem;
   }
+}
+
+h4.pb_with_border {
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid var(--text-70);
+}
+
+h4.mb_4 {
+  margin-bottom: 4rem;
 }
 
 h5 {
