@@ -204,6 +204,10 @@ h2 {
   }
 }
 
+h2.mb_2 {
+  margin-bottom: 2rem;
+}
+
 h3 {
   font-size: 3rem;
 }
