@@ -2,20 +2,27 @@
   font-family: trebuc;
   src: url("../../fonts/Trebuchet_MS.ttf");
 }
+.family_trebuc {
+  font-family: trebuc;
+}
 
 @font-face {
   font-family: yugothib;
   src: url("../../fonts/yugothib.ttf");
+}
+.family_yugothib {
+  font-family: yugothib;
 }
 
 @font-face {
   font-family: Segoe_UI;
   src: url("../../fonts/Segoe_UI.ttf");
 }
-
+.family_segoe {
+  font-family: Segoe_UI;
+}
 * {
   box-sizing: border-box;
-  font-family: Segoe_UI;
 }
 
 :root {
@@ -39,6 +46,7 @@
   --text-ec: #ecf7ff;
   --text-70: #707070;
   --text-f3: #f3f3f3;
+  --text-f4: #f4f4f4;
 }
 // ............body..........
 body {
@@ -46,6 +54,7 @@ body {
   padding: 0;
   font-size: 16px;
   color: var(--text-01);
+  font-family: Segoe_UI;
 }
 // ............body..........End
 
@@ -103,6 +112,10 @@ body {
       color: var(--text-black) !important;
       font-family: trebuc;
       text-transform: uppercase;
+      &.primary_link {
+        font-size: 1.8rem;
+        color: var(--text-5b) !important;
+      }
     }
     .btn_nav_item {
       background: linear-gradient(#3384c1 0%, #0b1f5b 100%);
@@ -121,6 +134,12 @@ body {
   }
 }
 
+// .........Header beneath.......
+.header_beneath_section {
+  background: var(--text-ec);
+  padding: 1rem;
+}
+// .........Header beneath.......End
 // ..............................Header Style.........................End
 
 // ..............................Heading.............................
@@ -193,6 +212,7 @@ footer {
   padding-top: 6.4rem;
   padding-bottom: 3.9rem;
   color: var(--text-white);
+  font-family: yyugothibu;
   @media (max-width: 600px) {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -211,9 +231,16 @@ footer {
   .footer_nav_list {
     display: flex;
     flex-flow: row wrap;
+    &.list_size_sm{
+      font-size: 1.4rem;
+    }
     li {
       margin-right: 4rem;
       margin-bottom: 2.37rem;
+      &.list_sm {
+        margin-bottom: 1.1rem;
+        margin-right: 0px;
+      }
       .nav_link {
         color: var(--text-white);
         font-family: trebuc;

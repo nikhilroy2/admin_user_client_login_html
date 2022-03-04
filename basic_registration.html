@@ -67,18 +67,19 @@
                         <!-- Left links -->
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar_list">
                             <li class="nav-item">
-                                <a class="nav-link text-center" href="#">マイページ</a>
+                                <a class="nav-link primary_link text-center" href="#">マイページ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-center" href="#">メニュー</a>
+                                <a class="nav-link primary_link text-center" href="#">メニュー</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-center" href="#">コンセプト</a>
+                                <a class="nav-link primary_link text-center" href="#">コンセプト</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  text-center btn_be_action action_light h-100 d-flex align-items-center mx-auto" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20.571" height="18"
-                                        viewBox="0 0 20.571 18">
+                                <a class="nav-link   text-center btn_be_action lg_size font-weight-bold justify-content-center action_light h-100 d-flex align-items-center mx-auto"
+                                    href="#">
+                                    <svg style="margin-right: .7rem" xmlns="http://www.w3.org/2000/svg" width="20.571"
+                                        height="18" viewBox="0 0 20.571 18">
                                         <path id="Icon_open-account-logout" data-name="Icon open-account-logout"
                                             d="M7.714,0V2.571H18V15.429H7.714V18H20.571V0ZM5.143,5.143,0,9l5.143,3.857V10.286H15.429V7.714H5.143Z" />
                                     </svg>
@@ -94,6 +95,24 @@
             </nav>
             <!-- Navbar -->
         </div>
+
+        <!-- beneath -->
+        <div class="header_beneath_section">
+            <div class="section_container container_left_helper">
+                <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="box me-3">
+                        <button class="btn_light_gray">
+                            企業ロゴ
+                        </button>
+                    </div>
+                    <div class="box family_yugothib">
+                        <span class="text_primary font-weight-bold" style="margin-right: 5.2rem">企業コード：00000000</span>
+                        <span class="text_primary font-weight-bold">社員番号：00000000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- beneath End-->
     </header>
     <!-- .................................Header.............................End -->
 
@@ -112,7 +131,7 @@
         <section>
             <div class="section_container container_left_helper container_right_helper">
                 <form action="" method="post" class="">
-                    <div class="form_container mb_lg">
+                    <div class="form_container mb_lg table-responsive">
 
                         <table class="table form_table">
                             <tbody>
@@ -182,13 +201,14 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <div class="form-group me-3 d-flex align-items-center">
-                                                <input type="checkbox" name="" id="form_checkbox1" class="">
+                                            <div
+                                                class="form-group me-3 d-flex align-items-center form_checkbox_label_group">
+                                                <input type="radio" name="myradio" id="form_checkbox1" class="">
                                                 <label for="form_checkbox1" class="ms-2">男</label>
                                             </div>
 
-                                            <div class="form-group d-flex align-items-center">
-                                                <input type="checkbox" name="" id="form_checkbox2" class="">
+                                            <div class="form-group d-flex align-items-center form_checkbox_label_group">
+                                                <input type="radio" name="myradio" id="form_checkbox2" class="">
                                                 <label for="form_checkbox2" class="ms-2">女</label>
                                             </div>
                                         </div>
@@ -201,31 +221,62 @@
                                     <td>
                                         <div class="row g-2">
                                             <div class="col-4">
-                                                <div class="form-group">
+                                                <div class="form-group position-relative">
                                                     <select name="" id="`" class="form-control">
                                                         <option value="年">年</option>
                                                         <option value="2">2</option>
                                                         <option value="3">3</option>
                                                     </select>
+                                                    <svg class="select_icon position-absolute"
+                                                        style="top: 50%; transform: translateY(-50%); right: .8rem"
+                                                        xmlns="http://www.w3.org/2000/svg" width="8.781" height="6.12"
+                                                        viewBox="0 0 8.781 6.12">
+                                                        <path id="Path_137" data-name="Path 137"
+                                                            d="M7219.936,610.665l4.155,5,3.845-5"
+                                                            transform="translate(-7219.551 -610.345)" fill="none"
+                                                            stroke="#0d0101" stroke-width="1" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="form-group">
-                                                    <select name="" id="" class="form-control">
-                                                        <option value="月">月</option>
+
+
+                                                <div class="form-group position-relative">
+                                                    <select name="" id="`" class="form-control">
+                                                        <option value="年">月</option>
                                                         <option value="2">2</option>
                                                         <option value="3">3</option>
                                                     </select>
+                                                    <svg class="select_icon position-absolute"
+                                                        style="top: 50%; transform: translateY(-50%); right: .8rem"
+                                                        xmlns="http://www.w3.org/2000/svg" width="8.781" height="6.12"
+                                                        viewBox="0 0 8.781 6.12">
+                                                        <path id="Path_137" data-name="Path 137"
+                                                            d="M7219.936,610.665l4.155,5,3.845-5"
+                                                            transform="translate(-7219.551 -610.345)" fill="none"
+                                                            stroke="#0d0101" stroke-width="1" />
+                                                    </svg>
                                                 </div>
+
+
                                             </div>
 
                                             <div class="col-4">
-                                                <div class="form-group">
-                                                    <select name="" id="" class="form-control">
-                                                        <option value="日">日</option>
+                                                <div class="form-group position-relative">
+                                                    <select name="" id="`" class="form-control">
+                                                        <option value="年">日</option>
                                                         <option value="2">2</option>
                                                         <option value="3">3</option>
                                                     </select>
+                                                    <svg class="select_icon position-absolute"
+                                                        style="top: 50%; transform: translateY(-50%); right: .8rem"
+                                                        xmlns="http://www.w3.org/2000/svg" width="8.781" height="6.12"
+                                                        viewBox="0 0 8.781 6.12">
+                                                        <path id="Path_137" data-name="Path 137"
+                                                            d="M7219.936,610.665l4.155,5,3.845-5"
+                                                            transform="translate(-7219.551 -610.345)" fill="none"
+                                                            stroke="#0d0101" stroke-width="1" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                         </div>
@@ -264,7 +315,7 @@
 
 
                         <div class="form_control_action text-center">
-                            <button class="btn_be_action sm_size action_mt">
+                            <button class="btn_be_action sm_size action_mt_4">
                                 登録する
                             </button>
                         </div>
@@ -313,44 +364,77 @@
     <footer>
         <section>
             <div class="section_container container_left_helper container_right_helper">
-                <div class="row gy-3 gx-0">
+                <div class="row gy-4 gx-2">
                     <div class="col-md-5">
-                        <img class="light_logo" src="./img/light_logo.png" alt="">
+                        <img class="light_logo logo_img" src="./img/light_logo.png" alt="">
 
                         <p class="paragraph">
-                            〒151-0064 東京都渋谷区上原1-3-9 YYビル2階 <br>
-                            TEL：000-000-0000　FAX：000-000-0000 <br>
-                            E-mail：＊＊＊＊＊＊＊＊＊＊＊＊＊
+                            〒151-0064 東京都渋谷区上原1-3-9 YYビル2階
                         </p>
                     </div>
                     <div class="col-md-7">
-                        <ul class="list-unstyled footer_nav_list">
-                            <li>
-                                <a href="#" class="nav_link">TOP</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link">Company</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav_link">News</a>
-                            </li>
+                        <div class="row g-3">
+                            <div class="col-md-5 col-lg-3 col-xl-2">
+                                <h6 class="list_title">
+                                    マイページ
+                                </h6>
 
-                            <li>
-                                <a href="#" class="nav_link">Contact</a>
-                            </li>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <h6 class="list_title">
+                                    トレーニング
+                                </h6>
+
+                                <ul class="list-unstyled  footer_nav_list list_size_sm ">
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">Concept
+                                            &Recommendation</a>
+                                    </li>
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">EXERCISE</a>
+                                    </li>
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">RELAX</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-7 col-lg-5 col-xl-4">
+                                <h6 class="list_title">
+                                    トレーニング
+                                </h6>
+
+                                <ul class="list-unstyled  footer_nav_list list_size_sm ">
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">KARADA SOLUTION</a>
+                                    </li>
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">KOKORO SOLUTION</a>
+                                    </li>
+                                    <li class="d-flex list_sm">
+                                        - <a class="nav_link ms-3" href="#">オンライン診療</a>
+                                    </li>
+                                </ul>
+                            </div>
 
 
-                            <li>
-                                <a href="#" class="nav_link">MEMBER</a>
-                            </li>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <h6 class="list_title mb-4">
+                                    お問い合わせ
+                                </h6>
+                                <ul class="list-unstyled footer_nav_list list_size_sm flex-wrap ">
+                                    <li class="list_sm">
+                                        <a class="nav_link " href="#">運営会社</a>
+                                    </li>
+                                    <li class="list_sm d-block w-100">
+                                        <a class="nav_link" href="#"> ログアウト</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                            <li class="w-100">
-                                <a href="#" class="nav_link">PRIVACY POLICY</a>
-                            </li>
 
-                        </ul>
-
-
+                        </div>
                     </div>
                 </div>
 

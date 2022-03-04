@@ -47,7 +47,7 @@
       border-radius: 0px;
       font-family: yugothib;
       @media (max-width: 600px) {
-        padding: .3rem 1rem;
+        padding: 0.3rem 1rem;
       }
     }
   }
@@ -71,9 +71,15 @@
     }
     .form-control {
       padding: 1.1rem;
+      @media (max-width: 600px) {
+        padding: 0.5rem 0.7rem;
+      }
     }
     .w_200 {
       width: 20rem;
+      @media (max-width: 600px) {
+        width: 15rem;
+      }
     }
     .w_140 {
       width: 14rem;
@@ -88,6 +94,59 @@
     padding-left: 0px;
     padding-right: 4.1rem;
   }
+  tr {
+    font-size: 1.8rem;
+    font-family: yugothib;
+    td {
+      border: none;
+      padding-bottom: 3.4rem;
+      &:nth-child(odd) {
+        font-weight: bold;
+      }
+    }
+    &:last-child {
+      td {
+        padding-bottom: 0px;
+      }
+    }
+  }
 }
 
+.form_checkbox_label_group {
+  input {
+    display: none;
+  }
+  label {
+    position: relative;
+    padding-left: 2.5rem;
+    cursor: pointer;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      background: var(--text-f4);
+      display: block;
+      left: 0rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background: var(--text-be);
+      left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: none;
+    }
+  }
+  input:checked + label::after {
+    display: block;
+  }
+}
 // ............................form title .................End
