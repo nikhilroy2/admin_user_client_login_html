@@ -24,6 +24,9 @@
     <li>
         <a href="http://127.0.0.1:5500/exercise_menu.html">http://127.0.0.1:5500/exercise_menu.html</a>
     </li>
+    <li>
+        <a href="http://127.0.0.1:5500/relax_menu.html">http://127.0.0.1:5500/relax_menu.html</a>
+    </li>
 
    
 </ol>
