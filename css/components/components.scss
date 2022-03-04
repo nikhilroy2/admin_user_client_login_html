@@ -208,6 +208,32 @@
     min-width: 15rem;
   }
 }
+
+.btn_return {
+  font-size: 2.4rem;
+  color: var(--text-white);
+  background: var(--text-be);
+  padding: 2.4rem;
+  box-shadow: 0px 5px 0px #005393;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  @media (max-width: 1199px) {
+    padding: 1.8rem;
+    font-size: 2rem;
+  }
+  @media (max-width: 600px) {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  &.mb_xl {
+    margin-bottom: 10rem;
+    @media (max-width: 600px) {
+      margin-bottom: 5rem;
+    }
+  }
+}
 // ....................Button Components .......................End
 
 // ...................User line, box Components. .................
@@ -330,14 +356,16 @@
   .menu_card_content {
     font-family: yugothib;
     .card_title {
-      min-height: 30.2rem;
+      height: 30.2rem;
       background: var(--text-70);
       border: 1px solid var(--text-70);
+      position: relative;
+
       @media (max-width: 1199px) {
-        min-height: 20rem;
+        height: 20rem;
       }
       @media (max-width: 600px) {
-        min-height: 15rem;
+        height: 15rem;
       }
     }
     .card_body {
@@ -375,6 +403,133 @@
         @media (max-width: 600px) {
           font-size: 1.3rem;
           padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// video card
+
+.video_card_wrapper {
+  margin-bottom: 6rem;
+  @media (max-width: 600px) {
+    margin-bottom: 4rem;
+  }
+  .video_card_content {
+    font-family: yugothib;
+    .card_title {
+      height: 27.4rem;
+      background: var(--text-70);
+      border: 1px solid var(--text-70);
+      border-radius: 1rem;
+      overflow: hidden;
+      position: relative;
+      .play_btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background: transparent;
+        @media (max-width: 1199px) {
+          svg {
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+        @media (max-width: 600px) {
+          svg {
+            width: 4rem;
+            height: 4rem;
+          }
+        }
+      }
+      @media (max-width: 1199px) {
+        height: 20rem;
+      }
+      @media (max-width: 600px) {
+        height: 15rem;
+      }
+    }
+    .card_body {
+      margin-top: 1.5rem;
+      .video_name {
+        font-size: 2rem;
+        @media (max-width: 600px) {
+          font-size: 1.5rem;
+        }
+      }
+      .video_tages {
+        font-size: 0.8rem;
+        a {
+          display: inline-block;
+          margin-right: 0.8rem;
+        }
+      }
+      p.paragraph {
+        font-size: 1.6rem;
+        color: var(--text-black);
+        line-height: 3rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2.7rem;
+        @media (max-width: 600px) {
+          margin-top: 1rem;
+          margin-bottom: 1.7rem;
+          font-size: 1.3rem;
+        }
+      }
+    }
+    .card_footer {
+      .btn_more {
+        font-family: trebuc;
+        color: var(--text-a9);
+        background: transparent;
+        border: 2px solid var(--text-a9);
+        outline: none;
+        box-shadow: none;
+        width: 100%;
+        display: block;
+        font-size: 1.8rem;
+        padding: 2.2rem;
+        text-align: center;
+        @media (max-width: 1199px) {
+          font-size: 1.5rem;
+          padding: 1.5rem;
+        }
+        @media (max-width: 600px) {
+          font-size: 1.3rem;
+          padding: 1rem;
+        }
+      }
+      .card_counter {
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        @media (max-width: 1199px) {
+          font-size: 2rem;
+        }
+        @media (max-width: 600px) {
+          font-size: 1.8rem;
+        }
+
+        .counter_box {
+          background: var(--text-ec);
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          font-size: 1.6rem;
+          margin-left: 0.7rem;
+          @media (max-width: 1199px) {
+            font-size: 1.2rem;
+          }
         }
       }
     }
