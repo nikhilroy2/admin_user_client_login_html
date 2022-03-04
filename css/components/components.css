@@ -795,6 +795,45 @@
   font-size: 1.4rem;
 }
 
+.static_card_wrapper {
+  margin-bottom: 5.9rem;
+}
+
+@media (max-width: 600px) {
+  .static_card_wrapper {
+    margin-bottom: 3rem;
+  }
+}
+
+.static_card_wrapper.card_styles {
+  background: var(--text-f3);
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+}
+
+.static_card_wrapper .media_box {
+  height: 36rem;
+  background: var(--text-70);
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 1199px) {
+  .static_card_wrapper .media_box {
+    max-width: 44rem;
+    height: 26rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .static_card_wrapper .media_box {
+    max-width: 40rem;
+    height: 20rem;
+  }
+}
+
 .border_line {
   width: 100%;
   height: 1px;

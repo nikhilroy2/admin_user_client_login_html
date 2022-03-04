@@ -591,6 +591,33 @@
   }
 }
 
+.static_card_wrapper {
+  margin-bottom: 5.9rem;
+  @media (max-width: 600px) {
+    margin-bottom: 3rem;
+  }
+  &.card_styles {
+    background: var(--text-f3);
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+  }
+  .media_box {
+    height: 36rem;
+    background: var(--text-70);
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.4rem;
+    @media (max-width: 1199px) {
+      max-width: 44rem;
+      height: 26rem;
+    }
+    @media (max-width: 600px) {
+      max-width: 40rem;
+      height: 20rem;
+    }
+  }
+}
 // .....................Card Components .........................End
 
 // .......................border line ..................
