@@ -18,6 +18,9 @@
     <li>
         <a href="https://user-login-xd-to-html.netlify.app/user_my_page.html">https://user-login-xd-to-html.netlify.app/user_my_page.html</a>
     </li>
+    <li>
+        <a href="http://127.0.0.1:5500/menu_page.html">http://127.0.0.1:5500/menu_page.html</a>
+    </li>
 
    
 </ol>
