@@ -21,6 +21,9 @@
 .form_container {
   &.mb_lg {
     margin-bottom: 9.6rem;
+    @media (max-width: 600px){
+      margin-bottom: 5rem;
+    }
   }
   &.form_mx_container {
     max-width: 50rem;
@@ -100,6 +103,9 @@
     td {
       border: none;
       padding-bottom: 3.4rem;
+      @media (max-width: 600px){
+        padding-bottom: .4rem;
+      }
       &:nth-child(odd) {
         font-weight: bold;
       }

@@ -3,6 +3,9 @@
   font-family: trebuc;
   &.section_title_mb {
     margin-bottom: 6rem;
+    @media (max-width: 600px){
+      margin-bottom: 3rem;
+    }
   }
   &.mb_sm {
     margin-bottom: 2.2rem;
@@ -151,6 +154,10 @@
   border-radius: 3px;
   &.btn_mt {
     margin-top: 6.4rem;
+    @media (max-width: 600px) {
+      margin-top: 1.4rem;
+      margin-bottom: 1.4rem;
+    }
   }
   @media (max-width: 600px) {
     width: 12rem;
@@ -269,12 +276,22 @@
   position: relative;
   user-select: none;
   margin-bottom: 10.9rem;
+  @media (max-width: 600px){
+    margin-bottom: 5rem;
+  }
   tr {
     font-size: 1.8rem;
     font-family: yugothib;
+    @media (max-width: 1199px) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 1rem;
+    }
     td {
       border: none;
       padding-bottom: 3.4rem;
+      white-space: nowrap;
       &:nth-child(odd) {
         font-weight: bold;
       }
@@ -293,6 +310,12 @@
     font-size: 4.6rem;
     color: var(--text-white);
     text-align: center;
+    @media (max-width: 1199px) {
+      font-size: 2.6rem;
+    }
+    @media (max-width: 600px) {
+      font-size: 1.6rem;
+    }
   }
 }
 

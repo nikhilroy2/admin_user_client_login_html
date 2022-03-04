@@ -23,6 +23,12 @@
   margin-bottom: 9.6rem;
 }
 
+@media (max-width: 600px) {
+  .form_container.mb_lg {
+    margin-bottom: 5rem;
+  }
+}
+
 .form_container.form_mx_container {
   max-width: 50rem;
   margin-left: auto;
@@ -142,6 +148,12 @@
 .form_container tr td {
   border: none;
   padding-bottom: 3.4rem;
+}
+
+@media (max-width: 600px) {
+  .form_container tr td {
+    padding-bottom: .4rem;
+  }
 }
 
 .form_container tr td:nth-child(odd) {

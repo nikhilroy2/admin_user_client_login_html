@@ -168,6 +168,20 @@ body {
   padding: 1rem;
 }
 
+@media (max-width: 600px) {
+  .header_beneath_section .box button {
+    font-size: 1.4rem !important;
+    padding: .5rem;
+    height: 3rem;
+  }
+  .header_beneath_section .box span {
+    font-size: 1.4rem;
+  }
+  .header_beneath_section .box span:first-child {
+    margin-right: 1rem !important;
+  }
+}
+
 h1 {
   font-size: 5rem;
 }
