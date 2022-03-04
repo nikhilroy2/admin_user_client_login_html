@@ -834,6 +834,22 @@
   }
 }
 
+.card_listing_wrapper li {
+  margin-bottom: 4rem;
+}
+
+.card_listing_wrapper li .media_box {
+  width: 36rem;
+  height: 22rem;
+  background: var(--text-70);
+}
+
+.card_listing_wrapper li .paragraph {
+  font-size: 1.6rem;
+  color: var(--text-black);
+  width: calc(100% - 36rem);
+}
+
 .border_line {
   width: 100%;
   height: 1px;

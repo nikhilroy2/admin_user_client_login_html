@@ -618,6 +618,22 @@
     }
   }
 }
+
+.card_listing_wrapper {
+  li {
+    margin-bottom: 4rem;
+    .media_box {
+      width: 36rem;
+      height: 22rem;
+      background: var(--text-70);
+    }
+    .paragraph {
+      font-size: 1.6rem;
+      color: var(--text-black);
+      width: calc(100% - 36rem)
+    }
+  }
+}
 // .....................Card Components .........................End
 
 // .......................border line ..................
