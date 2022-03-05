@@ -112,12 +112,24 @@ body {
   padding-bottom: 1.8rem;
 }
 
+.navbar .navbar_list .nav-item.nav_item_md {
+  margin-right: 6.5rem;
+}
+
+.navbar .navbar_list .nav-item.nav_item_md:last-of-type(2) {
+  margin-right: 4.4rem;
+}
+
 @media (max-width: 1199px) {
   .navbar .navbar_list .nav-item {
     margin-right: 0px;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
   }
+}
+
+.navbar .navbar_list .nav-item .nav-link {
+  padding: 0px;
 }
 
 .navbar .navbar_list .nav-item:last-child {
@@ -328,6 +340,12 @@ p.paragraph {
   font-size: 1.4rem;
 }
 
+@media (max-width: 400px) {
+  .font_14.sm_less {
+    font-size: 0.8rem;
+  }
+}
+
 .font_13 {
   font-size: 1.3rem;
 }
@@ -338,6 +356,12 @@ footer {
   padding-bottom: 3.9rem;
   color: var(--text-white);
   font-family: yyugothibu;
+}
+
+@media (min-width: 768px) {
+  footer .ps_md_28 {
+    padding-left: 2.8rem;
+  }
 }
 
 @media (max-width: 600px) {

@@ -21,7 +21,7 @@
 .form_container {
   &.mb_lg {
     margin-bottom: 9.6rem;
-    @media (max-width: 600px){
+    @media (max-width: 600px) {
       margin-bottom: 5rem;
     }
   }
@@ -51,6 +51,11 @@
       font-family: yugothib;
       @media (max-width: 600px) {
         padding: 0.3rem 1rem;
+      }
+    }
+    .select_sm_control{
+      @media (max-width: 400px) {
+        width: 100%;
       }
     }
   }
@@ -96,6 +101,9 @@
   tr td:first-child {
     padding-left: 0px;
     padding-right: 4.1rem;
+    @media (max-width: 600px) {
+      padding-right: .5rem;
+    }
   }
   tr {
     font-size: 1.8rem;
@@ -103,8 +111,10 @@
     td {
       border: none;
       padding-bottom: 3.4rem;
-      @media (max-width: 600px){
-        padding-bottom: .4rem;
+      @media (max-width: 600px) {
+        padding: 1rem .5rem;
+        padding-bottom: 0.4rem;
+        font-size: 1.2rem;
       }
       &:nth-child(odd) {
         font-weight: bold;

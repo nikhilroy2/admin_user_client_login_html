@@ -285,6 +285,8 @@
           align-items: center;
   background: transparent;
   min-height: 6.4rem;
+  font-family: trebuc;
+  font-weight: bold;
 }
 
 .btn_action_more.btn_mt {
@@ -588,6 +590,21 @@
   border: none;
   padding-bottom: 3.4rem;
   white-space: nowrap;
+}
+
+@media (max-width: 1199px) {
+  .section_table_wrapper tr td {
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section_table_wrapper tr td {
+    padding: 0.3rem;
+    padding-bottom: 1rem;
+    font-size: 0.8;
+  }
 }
 
 .section_table_wrapper tr td:nth-child(odd) {

@@ -206,6 +206,8 @@
   align-items: center;
   background: transparent;
   min-height: 6.4rem;
+  font-family: trebuc;
+  font-weight: bold;
   &.btn_mt {
     margin-top: 3.9rem;
     @media (max-width: 600px) {
@@ -428,6 +430,17 @@
       border: none;
       padding-bottom: 3.4rem;
       white-space: nowrap;
+
+      @media (max-width: 1199px) {
+        padding: 0.5rem;
+        padding-bottom: 2rem;
+      }
+      @media (max-width: 600px) {
+        padding: 0.3rem;
+        padding-bottom: 1rem;
+        font-size: 0.8;
+      }
+
       &:nth-child(odd) {
         font-weight: bold;
       }

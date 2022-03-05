@@ -99,10 +99,19 @@ body {
       margin-right: 8.3rem;
       padding-top: 1.8rem;
       padding-bottom: 1.8rem;
+      &.nav_item_md {
+        margin-right: 6.5rem;
+        &:last-of-type(2) {
+          margin-right: 4.4rem;
+        }
+      }
       @media (max-width: 1199px) {
         margin-right: 0px;
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
+      }
+      .nav-link {
+        padding: 0px;
       }
       &:last-child {
         margin-right: 0px;
@@ -265,6 +274,11 @@ p.paragraph {
 
 .font_14 {
   font-size: 1.4rem;
+  &.sm_less {
+    @media (max-width: 400px) {
+      font-size: 0.8rem;
+    }
+  }
 }
 .font_13 {
   font-size: 1.3rem;
@@ -279,6 +293,11 @@ footer {
   padding-bottom: 3.9rem;
   color: var(--text-white);
   font-family: yyugothibu;
+  .ps_md_28 {
+    @media (min-width: 768px) {
+      padding-left: 2.8rem;
+    }
+  }
   @media (max-width: 600px) {
     padding-top: 3rem;
     padding-bottom: 3rem;
