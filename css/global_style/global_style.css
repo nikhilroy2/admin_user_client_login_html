@@ -350,12 +350,53 @@ p.paragraph {
   font-size: 1.3rem;
 }
 
+.row.gutter_10 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media (max-width: 765px) {
+  .row.gutter_10 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.gutter_10 [class^="col-"],
+.gutter_10 [class*=" col-"] {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (max-width: 765px) {
+  .gutter_10 [class^="col-"],
+  .gutter_10 [class*=" col-"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+.gutter_10 [class^="col-"]:nth-child(odd) {
+  padding-left: 0px;
+}
+
+.gutter_10 [class^="col-"]:nth-child(even) {
+  padding-right: 0px;
+}
+
 footer {
   background: var(--text-32);
   padding-top: 6.4rem;
   padding-bottom: 3.9rem;
   color: var(--text-white);
   font-family: yyugothibu;
+}
+
+@media (min-width: 768px) {
+  footer .footer_right_md_sizer {
+    padding-left: 2.8rem;
+  }
 }
 
 @media (min-width: 768px) {

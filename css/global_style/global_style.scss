@@ -283,7 +283,35 @@ p.paragraph {
 .font_13 {
   font-size: 1.3rem;
 }
+// .....................Row helper...................
+$gutter: 10rem;
+.row.gutter_10 {
+  margin-left: $gutter;
+  margin-right: $gutter;
+  @media (max-width: 765px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 
+.gutter_10 [class^="col-"],
+.gutter_10 [class*=" col-"] {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+  @media (max-width: 765px) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+.gutter_10 [class^="col-"]:nth-child(odd) {
+  padding-left: 0px;
+}
+.gutter_10 [class^="col-"]:nth-child(even) {
+  padding-right: 0px;
+}
+
+//......................Row Helper...................End
 // .............................Text, Background classes ............End
 
 // ............................Footer Style.......................
@@ -293,6 +321,11 @@ footer {
   padding-bottom: 3.9rem;
   color: var(--text-white);
   font-family: yyugothibu;
+  .footer_right_md_sizer {
+    @media (min-width: 768px) {
+      padding-left: 2.8rem;
+    }
+  }
   .ps_md_28 {
     @media (min-width: 768px) {
       padding-left: 2.8rem;
