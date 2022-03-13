@@ -304,6 +304,15 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+<script>
+        let hasVScroll = window.document.body.scrollHeight > document.documentElement.clientHeight;
+        // console.log(window.document.body.scrollHeight)
+        // console.log(document.documentElement.clientHeight)
+        console.log(hasVScroll)
+        if(!hasVScroll){
+            document.querySelector('footer').setAttribute('style', 'padding-top: 5rem; padding-bottom: 5rem')
+        }
+    </script>
 </body>
 
 </html>

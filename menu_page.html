@@ -385,11 +385,29 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
 
     <script>
+
+        function truncateString(str, num) {
+            if (str.length > num) {
+                return str.slice(0, num) + "...";
+            } else {
+                return str;
+            }
+        }
         // load more description
         function LoadMoreMenuDesc(getSelector, getText) {
-            document.querySelector(`[${getSelector}]`).innerHTML = getText;
+            //document.querySelector(`[${getSelector}]`).innerHTML = getText;
             // to hide button
-            event.target.remove();
+            let get_event = event.target;
+            get_event.classList.toggle('active_read_all');
+            if (get_event.classList.contains('active_read_all')) {
+                get_event.innerHTML = 'READ LESS'
+                document.querySelector(`[${getSelector}]`).innerHTML = getText;
+
+            } else {
+                get_event.innerHTML = 'READ MORE';
+                document.querySelector(`[${getSelector}]`).innerHTML = truncateString(getText, 68);
+
+            }
         }
     </script>
 </body>
