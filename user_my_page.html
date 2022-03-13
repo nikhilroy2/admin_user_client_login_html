@@ -700,54 +700,37 @@
     <script>
         function loadMoreContent() {
             // use can use api json response to load from json data
-            const content_list_object = [
-                {
-                    id: 1,
-                    title: '動画名テキスト動画名テキスト動画名テキスト動画名テキスト',
-                    date: '閲覧日：2022年1月1日',
-                    category: 'CATEGORY'
-                },
-                {
-                    id: 2,
-                    title: '動画名テキスト動画名テキスト動画名テキスト動画名テキスト',
-                    date: '閲覧日：2022年1月1日',
-                    category: 'CATEGORY'
-                },
-                {
-                    id: 3,
-                    title: '動画名テキスト動画名テキスト動画名テキスト動画名テキスト',
-                    date: '閲覧日：2022年1月1日',
-                    category: 'CATEGORY'
-                },
-                {
-                    id: 4,
-                    title: '動画名テキスト動画名テキスト動画名テキスト動画名テキスト',
-                    date: '閲覧日：2022年1月1日',
-                    category: 'CATEGORY'
-                },
-            ]
+            let url = './json/content_list_object.json';
+            let btn_event = event.target;
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    //  console.log(data)
 
-            content_list_object.forEach(v => {
+                    data.forEach(v => {
 
-                return document.querySelector('.content_list').innerHTML += `
-                <li>
-                            <h6>
-                               ${v.title}
-                            </h6>
-                            <div class="list_foot d-flex align-items-center">
-                                <span>${v.date}</span>
-                                <a href="#" class="text_f7">${v.category}</a>
-                            </div>
-                        </li>
-                
-                `
+                        return document.querySelector('.content_list').innerHTML += `
+<li>
+            <h6>
+               ${v.title}
+            </h6>
+            <div class="list_foot d-flex align-items-center">
+                <span>${v.date}</span>
+                <a href="#" class="text_f7">${v.category}</a>
+            </div>
+        </li>
+
+`
 
 
-            })
+                    })
 
 
-            // to hide read more button
-            event.target.remove()
+                    // to hide read more button
+                    btn_event.remove()
+                })
+
+
         }
 
     </script>

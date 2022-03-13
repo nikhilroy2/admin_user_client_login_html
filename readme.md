@@ -40,7 +40,7 @@
         <a href="https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution.html">https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution.html</a>
     </li>
     <li>
-        <a href="https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution_column_details.html.html">https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution_column_details.html.html</a>
+        <a href="https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution_column_details.html">https://user-login-xd-to-html.netlify.app/user_page_menu_kokoro_solution_column_details.html</a>
     </li>
     <li>
         <a href="https://user-login-xd-to-html.netlify.app/user_page_menu_online_medical_care.html">https://user-login-xd-to-html.netlify.app/user_page_menu_online_medical_care.html</a>
